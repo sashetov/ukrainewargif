@@ -1,7 +1,7 @@
 #!/bin/bash
 GIFNAME=invasion.gif
 function cleanup(){
-  rm -rf svg uk;
+  rm -rf svg/t uk;
 }
 ./get-images.sh || {
   echo "ERR: downloading map svgs failed"
