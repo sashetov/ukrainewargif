@@ -7,8 +7,7 @@
 - cleans up after itself
 
 ## requires
-- python3.6 and above
-- sudoers access
+- python3 version that supports beautifulsoup4==4.8.1
 - ffmpeg
 
 ## to build:
