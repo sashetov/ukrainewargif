@@ -1,4 +1,4 @@
-# ukrainewargif
+# ukrainewarmapvideo
 
 ## what it does
 - scrapes the ukraine/russia war 2022 wiki page for image history of the map
@@ -14,7 +14,7 @@
 ```
 ./build.sh
 ```
-## to make gif
+## to make video
 ```
-./make-gif.sh
+./make-video.sh
 ```
