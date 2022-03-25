@@ -3,7 +3,7 @@
 ## what it does
 - scrapes the ukraine/russia war 2022 wiki page for image history of the map
 - downloads the images
-- makes a gif of them
+- makes a video of them in a filename w/ format that ffmpeg supports that you provide
 - cleans up after itself
 
 ## requires

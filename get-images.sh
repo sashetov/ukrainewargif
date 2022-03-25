@@ -27,4 +27,4 @@ cat ../uk | grep 'invasion_of_Ukraine.svg' | sed -r 's/^.+href="\/\///g' | sed -
     let i++;
   fi;
 done;
-printf "\n* downloaded all SVGs\n";
+printf "\n* downloaded all SVGs";
