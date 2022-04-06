@@ -9,9 +9,7 @@ collections.Callable = collections.abc.Callable
 
 def get_table_html():
   """
-  pulls
-  /html/body/div[2]/div[1]/div[2]/div/div[5]/div[5]/table/tbody
-  from
+  pulls table with uploads svg's from
   https://en.wikipedia.org/w/index.php?title=File:2022_Russian_invasion_of_Ukraine.svg&offset=&limit=5000#filehistory
   and writes to file
   """
@@ -19,7 +17,8 @@ def get_table_html():
   url = "https://en.wikipedia.org/w/index.php?title=File:2022_Russian_invasion_of_Ukraine.svg&offset=&limit=5000#filehistory"
   i = 1
   soup = BeautifulSoup(urlopen(url).read(), features="html.parser")
-  return str(soup.html.body.findAll("table")[4])
+  table = soup.html.body.findAll("table")[7]
+  return str(table)
 
 
 def main():
